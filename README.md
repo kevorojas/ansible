@@ -46,3 +46,5 @@ ansible-playbook -i ../hosts laptops.yaml
 https://youtu.be/7zc_lHFtttc
 
 ## Link de video como instalar varios programas en varias pc al mismo tiempo con ansible
+
+https://youtu.be/eQObVrEy13c

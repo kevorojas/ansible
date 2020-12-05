@@ -1,3 +1,18 @@
+# Como instalar varios programas en varias PC al mismo tiempo usando Ansible
+
+## Instalar Ansible
+
+Para instalar **Ansible** en **ubuntu** debes ejecutar los siguientes comandos:
+
+```
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+```
+
+Si tienes **Windows**, en el siguiente video te explico como instalar **Ansible**:
+
 ## Paso 1
 
 Descarga el repositorio y copia la carpeta en un lugar que puedas encontrar facilmente como **/home** por ejemplo
@@ -26,4 +41,8 @@ Por ultimo situate en la carpeta **playbooks** y ejecuta el siguiente comando pa
 ansible-playbook -i ../hosts laptops.yaml
 ```
 
+## Link de video como instalar Ansible en Windows
 
+https://youtu.be/7zc_lHFtttc
+
+## Link de video como instalar varios programas en varias pc al mismo tiempo con ansible

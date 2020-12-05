@@ -2,9 +2,9 @@
 - name: Install Software
   win_chocolatey:
     name: "{{ item }}"
-    state: present
+    state: absent
   with_items:
-    - googlechrome
+    - firefox
     - lightshot
     - 7zip  
     - zoom

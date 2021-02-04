@@ -1,4 +1,4 @@
 ---
-- hosts: laptops
+- hosts: all
   roles:
     - install

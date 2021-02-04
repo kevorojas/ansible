@@ -9,4 +9,8 @@
     - 7zip  
     - zoom
     - skype
-  
+    
+- name: Touch a file (creates if not present, updates modification time if present)
+  ansible.windows.win_file:
+    path: C:\Temp\foo.conf
+    state: touch
